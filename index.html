@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPMV</title>
+    <link rel="icon" href="assets/images/Logo.jpg">
+    <meta name="keywords" content="IPMV, Isuru Vithanage, Isuru, isuru vithanage, ipmv">
+    <meta name="description" content="I am Isuru Pramod Mawella Vithanage. This is my profile">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <meta name="theme-color" content="black">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;700;800&display=swap" rel="stylesheet">
+    <style>
+        /*Style the scrolbar*/
+        html {
+            scrollbar-color: rgb(1, 1, 1) rgb(110, 110, 110);
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(110, 110, 110);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(110, 110, 110);
+        }
+
+        ::-webkit-scrollbar-track-piece {
+            background: rgb(1, 1, 1);
+        }
+
+        /*Header styling*/
+        header {
+            background-image: url("assets/images/imp.jpg");
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            background-size: cover;
+        }
+
+
+        header > div > ul {
+            position: absolute;
+            right: 10px;
+            top: -15px;
+            bottom: 0;
+            font-size: 18px;
+            font-family: 'B612', sans-serif;
+            list-style: none;
+            color: white;
+
+        }
+
+        header > div:nth-child(1) > ul > li {
+            margin-top: 10px;
+            padding: 0 19px 0 19px;
+            display: inline-block;
+            color: #b6b6b6;
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+
+        header > div:nth-child(1) > ul > li:hover {
+            color: #00ffc4;
+            cursor: pointer;
+        }
+
+        header > div:nth-child(1) > div {
+            position: relative;
+            height: 30px;
+        }
+
+        header > div:nth-child(1) > div:nth-child(1) > h3 {
+            margin-top: 9px;
+            padding: 0 19px 0 19px;
+            display: inline-block;
+            font-size: 30px;
+            letter-spacing: 13px;
+            position: absolute;
+            font-family: 'B612', sans-serif;
+            font-weight: 800;
+        }
+
+
+        header > div:nth-child(1) {
+            color: #a0a0a0;
+            height: 7vh;
+            width: 100%;
+        }
+
+        h3:hover {
+            color: #00ffc4;
+        }
+
+        header > h1 {
+            color: white;
+            position: absolute;
+            left: 100px;
+            top: 250px;
+            font-size: 60px;
+            font-family: 'Sora', sans-serif;
+            letter-spacing: 10px;
+            font-weight: 800;
+        }
+
+        header > p {
+            width: 600px;
+            color: #9c9c9c;
+            position: absolute;
+            left: 100px;
+            top: 340px;
+            font-size: 23px;
+            font-family: Arial;
+        }
+
+        .icon {
+            position: absolute;
+            top: 450px;
+            left: 70px;
+        }
+
+        /*Main Styling*/
+        main {
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+
+        }
+
+        #m1 {
+            background-image: url("assets/images/ab.jpg");
+            background-size: cover;
+
+        }
+
+
+        #m1 > h1 {
+            color: white;
+            position: absolute;
+            left: 720px;
+            top: 820px;
+            font-family: 'Sora', sans-serif;
+            font-size: 60px;
+        }
+
+        #aboutme {
+            color: #d0d0d0;
+            position: absolute;
+            left: 720px;
+            top: 930px;
+            font-family: Arial;
+            font-size: 18px;
+            width: 600px;
+            text-align: justify;
+            text-justify: inter-word;
+            font-weight: 200;
+        }
+
+        button {
+            border-radius: 10px;
+            width: 130px;
+            height: 40px;
+            color: #00ffc4;
+            background-color: black;
+            border-color: #00ffc4;
+            font-family: 'Sora', sans-serif;
+            font-size: 15px;
+            position: absolute;
+            left: 720px;
+            top: 1150px;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background-color: #00ffc4;
+            color: black;
+            border-color: #00ffc4;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+<header id="head">
+    <!--------Navigation Bar---------->
+    <div>
+        <div>
+            <h3>IP<span style="color: #00ffc4">MV</span></h3>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Projecs</li>
+            <li>About Me</li>
+
+        </ul>
+    </div>
+
+    <!--Headings-->
+    <h1>ISURU <span style="color: #00ffc4">VITHANAGE</span></h1>
+    <p>An adaptable, energetic and self motivated student seeking in an opportunity to enhance the knowledge on software
+        engineering.</p>
+
+    <!--Scial media icons-->
+    <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=100014692804661" target="_blank">
+            <img src="assets/images/icons8-facebook-50%20(1).png" alt="" width="45"
+                 style="position: absolute; left: 33px; top: 13px">
+        </a>
+        <a href="https://www.linkedin.com/in/isuru-vithanage-07ba6a174/" target="_blank">
+            <img src="assets/images/icons8-linkedin-50.png" alt="" width="45"
+                 style="position: absolute; left: 101px; top: 13px">
+        </a>
+        <a href="https://twitter.com/__Isuru__" target="_blank">
+            <img src="assets/images/icons8-twitter-squared-50.png" alt="" width="45"
+                 style="position: absolute; left: 167px; top: 13px">
+        </a>
+        <a href="https://github.com/IsuruVithanage" target="_blank">
+            <img src="assets/images/icons8-github-50.png" alt="" width="42"
+                 style="position: absolute; left: 228px; top: 13px">
+        </a>
+        <img src="assets/images/icons8-instagram-64.png" alt="" width="50"
+             style="position: absolute; left: 286px; top: 10px">
+    </div>
+
+</header>
+
+<main id="m1">
+    <!--------About Me Area---------->
+    <h1>Hi <span style="color: #00ffc4">There</span></h1>
+    <p id="aboutme">I'm Isuru Vithanage, and I'm an IT student at the University of Moratuwa. I believe that my mindset
+        is my strength, and I enjoy taking on challenges and thinking about how to accept both success and failure in a
+        balanced way in order to go forward. My short-term goal is to locate a platform where I can advance my career
+        and grow with the company. And my long-term ambition is to be the driving force behind the organization's
+        success. As a result, I constantly challenge myself to better my progress and consistent growth.</p>
+
+    <button>Download CV</button>
+</main>
+</body>
+</html>
